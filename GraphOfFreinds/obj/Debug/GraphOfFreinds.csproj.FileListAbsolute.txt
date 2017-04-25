@@ -1,0 +1,10 @@
+C:\Users\vlad\Documents\Visual Studio 2013\Projects\GraphOfFreinds\GraphOfFreinds\bin\Debug\GraphOfFreinds.exe.config
+C:\Users\vlad\Documents\Visual Studio 2013\Projects\GraphOfFreinds\GraphOfFreinds\bin\Debug\GraphOfFreinds.exe
+C:\Users\vlad\Documents\Visual Studio 2013\Projects\GraphOfFreinds\GraphOfFreinds\bin\Debug\GraphOfFreinds.pdb
+C:\Users\vlad\Documents\Visual Studio 2013\Projects\GraphOfFreinds\GraphOfFreinds\obj\Debug\GraphOfFreinds.LoginVk.resources
+C:\Users\vlad\Documents\Visual Studio 2013\Projects\GraphOfFreinds\GraphOfFreinds\obj\Debug\GraphOfFreinds.Properties.Resources.resources
+C:\Users\vlad\Documents\Visual Studio 2013\Projects\GraphOfFreinds\GraphOfFreinds\obj\Debug\GraphOfFreinds.csproj.GenerateResource.Cache
+C:\Users\vlad\Documents\Visual Studio 2013\Projects\GraphOfFreinds\GraphOfFreinds\obj\Debug\GraphOfFreinds.exe
+C:\Users\vlad\Documents\Visual Studio 2013\Projects\GraphOfFreinds\GraphOfFreinds\obj\Debug\GraphOfFreinds.pdb
+C:\Users\vlad\Documents\Visual Studio 2013\Projects\GraphOfFreinds\GraphOfFreinds\obj\Debug\GraphOfFreinds.csprojResolveAssemblyReference.cache
+C:\Users\vlad\Documents\Visual Studio 2013\Projects\GraphOfFreinds\GraphOfFreinds\obj\Debug\GraphOfFreinds.Form1.resources

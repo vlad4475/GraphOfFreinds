@@ -18,7 +18,7 @@ namespace GraphOfFreinds
 
         public void addNewPerson(string strIdofNewPeople)
         {
-            List<int> freindofFreindsOfId = new List<int>();
+            /*List<int> freindofFreindsOfId = new List<int>();
             List<int> freindsOfstrId;
             freindsOfstrId = Global.speakerVk.giveListOfFreidsUser(strIdofNewPeople);
             
@@ -34,7 +34,7 @@ namespace GraphOfFreinds
             foreach (int x in freindofFreindsOfId)
                 set.Add(x);
 
-            int a = 0;
+            int a = 0;*/
 
         }
 
@@ -56,7 +56,7 @@ namespace GraphOfFreinds
             foreach (int x in freindsOfstrId)
             {
                 freindsOfstrId = Global.speakerVk.giveListOfFreidsUser(Convert.ToString(x));
-                _allPersonInGraph.Add(new Person(Convert.ToInt32(strIdofNewPeople), freindsOfstrId, false));
+                _allPersonInGraph.Add(new Person(x, freindsOfstrId, false));
             }                
 
             freindofFreindsOfId.Sort(); // ToDo нормальное слияние списков, используя то, что они изначально отсортированы, а не вот так

@@ -16,6 +16,7 @@ namespace GraphOfFreinds
         public Form1()
         {
             InitializeComponent();
+            dataGridView1.AutoGenerateColumns = true;
             timer1.Start();
         }
 
@@ -45,11 +46,13 @@ namespace GraphOfFreinds
         private void timer1_Tick(object sender, EventArgs e)
         {
             label1.Text = "Кол-во человек в базе = " + Convert.ToString(Global.graph._allPersonInGraph.Count);
+            dataGridView1.DataSource = Global.graph._allPersonInGraph.Select(x => new { Value = x._ID }).ToList();
         }
-
+    
         private void button1_Click(object sender, EventArgs e)
         {
             dataGridView1.AutoGenerateColumns = true;
+            //dataGridView1.DataSource = Global.graph._allPersonInGraph.Select(x => new { Value = x._ID }).ToList();
             dataGridView1.DataSource = Global.graph._allPersonInGraph.Select(x => new { Value = x._ID }).ToList();
         }
     }

@@ -24,10 +24,12 @@ namespace GraphOfFreinds
             Thread threadWhoAskVK = new Thread(()
                 => {
                     Global.graph.addNewPersonWithThimFreinds(textBoxIdNewPeople.Text);
+                    
                 });
 
             threadWhoAskVK.Start();
             label1.Text = "fsdfsd";
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -44,6 +46,11 @@ namespace GraphOfFreinds
         {
             label1.Text = "Кол-во человек в базе = " + Convert.ToString(Global.graph._allPersonInGraph.Count);
         }
-    
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            dataGridView1.AutoGenerateColumns = true;
+            dataGridView1.DataSource = Global.graph._allPersonInGraph.Select(x => new { Value = x._ID }).ToList();
+        }
     }
 }
